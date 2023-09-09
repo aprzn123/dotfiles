@@ -13,6 +13,7 @@ map('n', '<F2>', '<Plug>(coc-rename)', opts) -- rename
 map('n', '<F8>', '<Cmd>TagbarToggle<cr>', opts) -- show ctags
 vim.keymap.set('n', 'zR', require('ufo').openAllFolds) -- ufo
 vim.keymap.set('n', 'zM', require('ufo').closeAllFolds) -- ufo
+vim.keymap.set('t', '<c-d><c-d>', '<c-\\><c-n>') -- close term
 vim.keymap.set('n', '<c-->', function()
     vim.g.neovide_scale_factor = vim.g.neovide_scale_factor * 0.9
 end)

@@ -46,6 +46,7 @@ require('packer').startup(function(use)
     use 'tpope/vim-surround' -- surround text with brackets
     use {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'} -- better folding
     use 'tpope/vim-fugitive' -- git
+    use 'junegunn/goyo.vim' -- focus mode
 
     use 'ryanoasis/vim-devicons' -- icons for NERDTree (must be loaded last)
 end)
